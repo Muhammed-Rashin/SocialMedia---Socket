@@ -1,7 +1,6 @@
-console.log('Yes its Here');
 const io = require('socket.io')(7000, {
   cors: {
-    origin: 'https://polite-pie-664ba6.netlify.app',
+    origin: 'https://pradax.netlify.app',
   },
 });
 
